@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lihang.dagger2stu">
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".study.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".study.astudy.AstudyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".study.bstudy.BstudyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".study.cstudy.CstudyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".study.dstudy.DstudyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".study.estudy.EstudyActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".study.fstudy.FstudyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".study.gstudy.GstudyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".study.hstudy.HstudyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".study.istudy.IstudyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".study.jstudy.JstudyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".study.kstudy.KstudyActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".study.lstudy.LstudyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".study.mforandroid.ForAndroidActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Dagger2Stu</string>
+    <string name="dagger2_a">最简单的使用@Inject</string>
+    <string name="dagger2_b">使用@Module</string>
+    <string name="dagger2_c">通过Module传参(1)</string>
+    <string name="dagger2_d">使用@Component.Builder(2)</string>
+    <string name="dagger2_a_des">在java中Dagger2最简单的使用@inject</string>
+    <string name="dagger2_b_des">一般是第三方类库，就是初始化用不了@Inject的，一般配合@Module使用</string>
+    <string name="dagger2_c_des">如果我们在使用时需要传入一些参数时，DaggerComponent初始化时是要用build,用不了create</string>
+    <string name="dagger2_d_des">这是关联(1)的用法。通过上面那个例子,去看dagger2帮我们自动生成的代码，有个Builder</string>
+    <string name="dagger2_e">使用@BindsInstance(3)</string>
+    <string name="dagger2_e_des">这是关联(2)的。通过上面的例子，我们来引入@BindsInstance</string>
+    <string name="dagger2_f">①.Component依赖Component,使用dependence</string>
+    <string name="dagger2_f_des">当有一个Component需要依赖另外一个Component,举例：fragment里的依赖Activity里的</string>
+    <string name="dagger2_g">②.Component依赖Component,使用@subComponent</string>
+    <string name="dagger2_g_des">这里是关联①的，2者作用一样,这里使用的是@subComponent</string>
+    <string name="dagger2_h">③.Component依赖Component,使用 @Subcomponent.Builder</string>
+    <string name="dagger2_h_des">这是关联②的，这3个标签实现的是样一个效果，只是用不同方式</string>
+    <string name="dagger2_i">\@Named的用法</string>
+    <string name="dagger2_i_des">这里举一个例子，比如我们用Dog类，生成不同的小狗狗。就是初始化数据的时候，有多个同一类型初始化，用于区分。有点像tag</string>
+    <string name="dagger2_j">\@Qualifier的用法</string>
+    <string name="dagger2_j_des">限定符，它的作用和函数的重载很像。@Qualifier的用法介绍</string>
+    <string name="dagger2_k">\@Singleton的用法</string>
+    <string name="dagger2_k_des">\@Singleton其实是@Scope的一种</string>
+    <string name="dagger2_l">Provider和Lazy的介绍</string>
+    <string name="dagger2_l_des">现在还剩下Provider和Lazy的使用，我们通过demo看看和@Inject有什么区别</string>
+    <string name="dagger2_for_android">重料：在Android中使用！！</string>
+    <string name="dagger2_for_android_des">如果按Java的方式在Android中使用，累死人不说，还有谁会用呢，所以出了个扩展库dagger.android</string>
+</resources>
