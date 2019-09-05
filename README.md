@@ -2,7 +2,7 @@
 ## 本demo针对新手入门，真的让你从入门到爱不释手。（4篇文章，全面掌握）
 * [Dagger2基础知识及用法（在Java中使用（1））](https://juejin.im/post/5d6f3e47f265da03aa258c72)
 * [Dagger2基础知识及用法（在Java中使用（2））](https://juejin.im/post/5d6f81b8e51d4561f17a5136)
-* Dagger2进阶知识及用法 （在Android中使用）
+* [Dagger2进阶知识及用法 （在Android中使用）](https://juejin.im/post/5d705bd4f265da03b46c0e01)
 * Dagger2 VIP版知识及用法 （在实战MVP中用法）
 
 本Demo只针对前2篇。请前往博客详细查看！博客中有详细解说，接下来放几篇友情链接。  
